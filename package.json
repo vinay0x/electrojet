@@ -1,0 +1,11 @@
+{
+  "name": "electrojet",
+  "version": "0.0.1",
+  "description": "The no hassle Electron boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vinay Chandran",
+  "license": "ISC"
+}
