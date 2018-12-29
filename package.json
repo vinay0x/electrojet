@@ -10,7 +10,13 @@
     "webpack-serve": "webpack-dev-server --mode development --port 4567",
     "electron": "NODE_ENV=DEV electron .",
     "wait": "wait-on http://localhost:4567/",
-    "electron-wait": "run-s wait electron"
+    "electron-wait": "run-s wait electron",
+    "electron-package-all": "electron-packager . electrojet --platform=all",
+    "electron-package-mac": "electron-packager . electrojet --platform=darwin",
+    "electron-package-linux": "electron-packager . electrojet --platform=linux",
+    "electron-package-win": "electron-packager . electrojet --platform=win32",
+    "electron-package-mas": "electron-packager . electrojet --platform=mas",
+    "build": "run-s webpack-build electron-package-all"
   },
   "author": "Vinay Chandran",
   "license": "ISC",
@@ -26,6 +32,7 @@
     "chokidar": "^2.0.4",
     "css-loader": "^2.1.0",
     "electron-devtools-installer": "^2.2.4",
+    "electron-packager": "^13.0.1",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.5.0",
