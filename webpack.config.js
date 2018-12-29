@@ -33,6 +33,7 @@ module.exports = {
   resolve: {
     extensions: ['*', '.js', '.jsx']
   },
+  target: 'electron-renderer',
   plugins: [
     new HtmlWebPackPlugin({
       template: './src/index.html',
