@@ -1,11 +1,10 @@
-import ReactDOM from "react-dom";
+import React from 'react'
+import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
 
-import App from './App'
-import style from "./styles/main.css";
+import App from './App.jsx'
 
 ReactDOM.render(
   <Provider>
     <App />
-  </Provider>
-  , document.getElementById("app"));
+  </Provider>, document.getElementById('app'))

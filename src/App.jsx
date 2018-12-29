@@ -1,4 +1,5 @@
 import React from 'react'
+import './styles/main.css'
 
 class App extends React.Component {
   state = {
