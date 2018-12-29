@@ -16,7 +16,7 @@
   
 </div>
 <br />
-<table>
+<table align="center">
   <th>Branch Name</th>
   <th><pre>React</pre></th>
   <th><pre>Redux</pre></th>
