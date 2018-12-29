@@ -13,7 +13,9 @@
     <img src="https://img.shields.io/badge/Webpack-4.28.2-1670b4.svg" />
     <img src="https://img.shields.io/badge/Babel-7.2.2-f5da55.svg" />
   </p>
+</div>
 <br />
+<center>
 <table>
   <th>Branch Name</th>
   <th><pre>React</pre></th>
@@ -58,6 +60,4 @@
     <td align="center">✅</td>
   </tr>
 </table>
-  
-  
-</div>
+</center>
