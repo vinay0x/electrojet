@@ -16,6 +16,6 @@
   
 </div>
 <br />
-Branch Name  | React + Redux 
+| Branch Name  | React + Redux |
 ------------- | -------------
-base  | Yes
+| base  | Yes |
