@@ -16,4 +16,47 @@
   
 </div>
 <br />
-# aewe
+<table>
+  <th>Branch Name</th>
+  <th><pre>React</pre></th>
+  <th><pre>Redux</pre></th>
+  <th><pre>Redux
+  Persist</pre></th>
+  <th><pre>Connected
+  React Router</pre></th>
+  <tr>
+    <td><code>master</code></td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+  </tr
+  <tr>
+    <td><code>base</code></td>
+    <td align="center">✅</td>
+    <td align="center">❌</td>
+    <td align="center">❌</td>
+    <td align="center">❌</td>
+  </tr
+  <tr>
+    <td><code>redux</code></td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+    <td align="center">❌</td>
+    <td align="center">❌</td>
+  </tr>
+  <tr>
+    <td><code>redux-persist</code></td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+    <td align="center">❌</td>
+  </tr>
+  <tr>
+    <td><code>react-redux-router</code></td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+    <td align="center">❌</td>
+    <td align="center">✅</td>
+  </tr>
+</table>
