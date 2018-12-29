@@ -3,7 +3,7 @@
 <div align="center">
   Helps your <code>Electron</code> apps take off quickly 🚀
   <br />
-  ![](https://img.shields.io/github/languages/code-size/badges/shields.svg?style=popout)
+  
 </div>
-
+![](https://img.shields.io/github/languages/code-size/badges/shields.svg?style=popout)
 <br />
