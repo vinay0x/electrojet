@@ -26,6 +26,13 @@ module.exports = {
       }
     ]
   },
+  devServer: {
+    publicPath: '/',
+    historyApiFallback: true
+  },
+  resolve: {
+    extensions: ['*', '.js', '.jsx']
+  },
   plugins: [
     new HtmlWebPackPlugin({
       template: './src/index.html',
