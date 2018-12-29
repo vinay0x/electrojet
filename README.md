@@ -54,7 +54,7 @@ Everytime I was struck with an app idea, the thought of setting up frameworks an
 <h3>Alright. How do I use this?</h3>
 <ul>
   <li>Refer the table below to figure out which branch you want.<br></li>
-  <li>Clone the corresponding branch with git clone <code>git clone --single-branch --branch &lt;branchName&gt; https://github.com/vinaychandranvs/electrojet &lt;yourProjectName&gt;</code></li>
+  <li>Clone the corresponding branch with git clone <br><code>git clone --single-branch --branch &lt;branchName&gt; https://github.com/vinaychandranvs/electrojet &lt;yourProjectName&gt;</code></li>
   <li>Change directory to &lt;yourProjectName&gt;</li>
   <li>Install dependencies by running <code>npm install</code></li>
   <li>Start development server by runnining <code>npm start</code></li>
