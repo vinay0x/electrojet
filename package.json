@@ -8,7 +8,7 @@
     "webpack-dev": "webpack --mode development",
     "webpack-build": "webpack --mode production",
     "webpack-serve": "webpack-dev-server --mode development --port 4567",
-    "electron": "electron .",
+    "electron": "NODE_ENV=DEV electron .",
     "wait": "wait-on http://localhost:4567/",
     "electron-wait": "run-s wait electron"
   },
