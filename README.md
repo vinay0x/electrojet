@@ -17,21 +17,44 @@
 <br />
 
 <h3>What is this thing?</h3>
-  <p>    ElectroJet is a set of easy-to-use, ready-to-go boilerplates for Electron!</p>
+ElectroJet is a set of easy-to-use, ready-to-go boilerplates for Electron!
   
 <h3>Why do you need a boilerplate in the first place?</h3>
-<p>Everytime I was struck with an app idea, the thought of setting up frameworks and tooling made me feel very lazy. And I ended up procrastinating. A lot! So, ElectroJet. Electrojet gets my project up and running within one or two minutes!</p>
+Everytime I was struck with an app idea, the thought of setting up frameworks and tooling made me feel very lazy. And I ended up procrastinating. A lot! So, ElectroJet. Electrojet gets my project up and running within one or two minutes!
                             
 <h3>Why can't you be smart and choose from 100s of other boilerplates?</h3>
-  <p>    Flexibility! I wanted to choose between the technologies I wanted. There are lots of boilerplates which pack a crazy ton of shit. Sometimes I wanted more than a boilerplate had to offer, sometimes less. Messing around to add/remove something was even crazier since most boilerplates are of different patterns.</p>
+ Flexibility! I wanted to choose between the technologies I wanted. There are lots of boilerplates which pack a crazy ton of shit. Sometimes I wanted more than a boilerplate had to offer, sometimes less. Messing around to add/remove something was even crazier since most boilerplates are of different patterns.
+
+<h3>So, what all stuff are there?</h3>
+
+<h4><a href="https://electronjs.org">Electron</a> and <a href="http://reactjs.org">React</a><h4> are available by default in all boilerplates.<br>
+<h4>Along with them, you can have: <br>
+<ul>
+<li><a href="https://redux.js.org">Redux</a><br></li>
+<li><a href="https://reacttraining.com/react-router/web/guides/quick-start">React Router</a><br></li>
+<li><a href="https://github.com/supasate/connected-react-router">Connected React Router</a><br></li>
+<li><a href="https://github.com/rt2zz/redux-persist">Redux Persist</a><br></li>
+<li><a href="https://github.com/sindresorhus/electron-store">Electron Store</a><br></li>
+</ul>
+
+<h4>Build tools:<br>
+<a href="https://webpack.js.org/">Webpack</a><br>
+<a href="https://babeljs.io/">Babel</a><br>
+
+<h4>Other stuff<br>
+<a href="https://eslint.org/">ESlint</a> based on <a href="https://standardjs.com/">Standard JS</a><br>
+<a href="https://reactjs.org/docs/typechecking-with-proptypes.html">React PropTypes</a><br>
+Auto reloading main process with <a href="https://github.com/paulmillr/chokidar">Chokidar</a><br>
+Support for <a href="https://babeljs.io/docs/en/next/babel-plugin-proposal-decorators.html">Decorators</a>
+
 
 <center>
 <table>
   <th>Branch Name</th>
   <th><pre>React</pre></th>
   <th><pre>Redux</pre></th>
-  <th><pre>Redux
-  Persist</pre></th>
+  <th><pre>Redux Persist w/
+  Electron Store</pre></th>
   <th><pre>Connected
   React Router</pre></th>
   <tr>
