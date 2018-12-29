@@ -15,6 +15,16 @@
   </p>
 </div>
 <br />
+
+<h3>What is this thing?<h3>
+  <p>    ElectroJet is a set of easy-to-use, ready-to-go boilerplates for Electron!</p>
+  
+<h3>Why do you need a boilerplate in the first place?<h3>
+<p>Everytime I was struck with an app idea, the thought of setting up frameworks and tooling made me feel very lazy. And I ended up procrastinating. A lot! So, ElectroJet. Electrojet gets my project up and running within one or two minutes!</p>
+                            
+<h3>Why can't you be smart and choose from 100s of other boilerplates?</h3>
+  <p>    Flexibility! I wanted to choose between the technologies I wanted. There are lots of boilerplates which pack a crazy ton of shit. Sometimes I wanted more than a boilerplate had to offer, sometimes less. Messing around to add/remove something was even crazier since most boilerplates are of different patterns.</p>
+
 <center>
 <table>
   <th>Branch Name</th>
