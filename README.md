@@ -27,8 +27,8 @@ Everytime I was struck with an app idea, the thought of setting up frameworks an
 
 <h2>So, what all stuff are there?</h2>
 
-<h3><a href="https://electronjs.org">Electron</a> and <a href="http://reactjs.org">React</a><h3> are available by default in all boilerplates.<br>
-<h3>Along with them, you can have: <br>
+<a href="https://electronjs.org">Electron</a> and <a href="http://reactjs.org">React</a> are available by default in all boilerplates.<br>
+<h4>Along with them, you can have: <br></h4>
 <ul>
 <li><a href="https://redux.js.org">Redux</a><br></li>
 <li><a href="https://reacttraining.com/react-router/web/guides/quick-start">React Router</a><br></li>
@@ -37,13 +37,13 @@ Everytime I was struck with an app idea, the thought of setting up frameworks an
 <li><a href="https://github.com/sindresorhus/electron-store">Electron Store</a><br></li>
 </ul>
 
-<h3>Build tools:<br>
+<h4>Build tools:<br></h4>
 <ul>
 <li><a href="https://webpack.js.org/">Webpack</a><br></li>
 <li><a href="https://babeljs.io/">Babel</a><br></li>
 </ul>
 
-<h3>Other stuff<br>
+<h4>Other stuff<br></h4>
 <ul>
 <li><a href="https://eslint.org/">ESlint</a> based on <a href="https://standardjs.com/">Standard JS</a><br></li>
 <li><a href="https://reactjs.org/docs/typechecking-with-proptypes.html">React PropTypes</a><br></li>
