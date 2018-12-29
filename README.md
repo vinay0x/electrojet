@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/badge/Babel-7.2.2-f5da55.svg" />
   </p>
 <br />
-<table align="center">
+<table>
   <th>Branch Name</th>
   <th><pre>React</pre></th>
   <th><pre>Redux</pre></th>
