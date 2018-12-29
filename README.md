@@ -1,7 +1,7 @@
 <h1 align="center">Electrojet</h1>
 
 <div align="center">
-  A no-hassle foundation for <code>Electron</code> apps 🚀
+  Helps your <code>Electron</code> apps take off quickly 🚀
 </div>
 
 <br />
