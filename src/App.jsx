@@ -3,15 +3,28 @@ import './styles/main.css'
 
 class App extends React.Component {
   state = {
-    counter: 1
+    count: 0
+  }
+  increment = () => {
+    this.setState({
+      count: this.state.count + 1
+    })
+  }
+  decrement = () => {
+    this.setState({
+      count: this.state.count - 1
+    })
   }
   render () {
     return (
       <div>
-        <p>Count is { this.state.counter }!</p>
+        <p>Count is { this.state.count }!</p>
         <button
-          onClick={ () => this.setState(state => ({ ...state, counter: state.counter + 1 })) }
+          onClick={this.increment}
         >Increment</button>
+        <button
+          onClick={this.decrement}
+        >Decrement</button>
       </div>
     )
   }
