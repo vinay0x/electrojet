@@ -1,6 +1,5 @@
 const path = require('path');
 const { app, BrowserWindow } = require('electron');
-
 const isDevelopment = process.env.NODE_ENV === "DEV";
 let mainWindow;
 let forceQuit = false;
@@ -36,11 +35,17 @@ app.on('ready', async () => {
     height: 800,
     minWidth: 640,
     minHeight: 480,
-    show: false,
+    show: false, 
   });
 
-  if (isDevelopment) {
+  if (isDevelopment) { 
     await installExtensions();
+    const chokidar = require('chokidar')
+    chokidar.watch('./index.js').on('change',
+      () => {
+        app.relaunch()
+        app.exit();
+    })
     mainWindow.loadURL('http://localhost:4567');
   } else {
     mainWindow.loadFile(path.resolve(path.join(__dirname, './dist/index.html')));
