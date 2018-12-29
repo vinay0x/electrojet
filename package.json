@@ -1,7 +1,7 @@
 {
-  "name": "hyperblock",
+  "name": "electrojet",
   "version": "0.0.1",
-  "description": "A no-nonsense system-wide adblocker",
+  "description": "The no hassle Electron boilerplate",
   "main": "index.js",
   "scripts": {
     "start": "run-p webpack-serve electron-wait",
