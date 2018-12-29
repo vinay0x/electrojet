@@ -4,7 +4,8 @@
   "description": "The no hassle Electron boilerplate",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
   },
   "author": "Vinay Chandran",
   "license": "ISC",
