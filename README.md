@@ -25,6 +25,9 @@ Everytime I was struck with an app idea, the thought of setting up frameworks an
 <h2>Why can't you be smart and choose from 100s of other boilerplates?</h2>
  Flexibility! I wanted to choose between the technologies I wanted. There are lots of boilerplates which pack a crazy ton of shit. Sometimes I wanted more than a boilerplate had to offer, sometimes less. Messing around to add/remove something was even crazier since most boilerplates are of different patterns.
 
+<h2>How is this different?</h2>
+Electrojet is not one but a set of boilerplates. It provides combinations which lets you choose what technologies you want bundled in your boilerplate.
+
 <h2>So, what all stuff are there?</h2>
 
 <a href="https://electronjs.org">Electron</a> and <a href="http://reactjs.org">React</a> are available by default in all boilerplates.<br>
